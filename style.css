@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    padding-bottom: 0px;
+    margin: 1px;
+    color: cornsilk;
+    border: 2px solid white;
+    border-bottom: black;
+}
+
+.header h1 {
+    text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.topnav button {
+    text-align: right;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgba(241, 16, 155, 0.884);
+    color: black;
+}
+
+textarea {
+    padding: 20px;
+}
+
+td {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+label {
+    float: left;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form {
+    line-height: 30px;
+    width: 500px;
+    background-color: floralwhite;
+    padding: 60px;
+    margin: 50px;
+    margin-left: 30%;
+    border: 5px double black;
+    box-shadow: blueviolet;
+}
+
+input [type="reset"] {
+    padding: 5px;
+}
+
+input {
+    float: left;
+    flex-direction: row;
+    padding: 15px;
+}
+
+button {
+    background-color: rgb(0, 0, 0);
+    color: cornsilk;
+    width: 100px;
+    padding: 15px;
+    margin-left: 300px;
+}
+
+.footer {
+    background-color: black;
+    border: 10px solid black;
+}
+
+.footer h6 {
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+}

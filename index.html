@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--header-->
+    <div id="header">
+        <div class="header">
+            <h1>REGISTRATION FORM</h1>
+        </div>
+    </div>
+
+
+    <!--menubar-->
+
+    <div class="topnav">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#contact">CONTACT</a>
+        <a href="#help">HELP</a>
+    </div>
+
+    <!--form-->
+    <div class="form">
+        <form action="action.html">
+            <marquee>FILL THE FORM IN BLOCK LETTERS ONLY.</marquee>
+            <table>
+                <tr>
+                    <td>
+                        FULL NAME:
+                    </td>
+                    <td>
+                        <input type="text" id="fname" placeholder="FULL NAME" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        GENDER:
+                    </td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="male" required>
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="female" required>
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="other" required>
+                        <label for="other">Other</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        DATE OF BIRTH:
+                    </td>
+                    <td>
+                        <input type="date" name="dob" placeholder="DD/MM/YYYY" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        QUALIFICATION:
+                    </td>
+                    <td>
+                        <select id="qual" name="qual" required><br>
+                        <option value="none">--SELECT--</option><br>
+                        <option value="grad">GRADUATE</option>
+                        <option value="PG">POST GRADUATE</option>
+                        <option value="10 pass">10 PASS</option>
+                        <option value="12 pass">12 PASS</option>
+                        <option value="others" type="text">OTHERS</option>
+                        </select><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        NATIONALITY:
+                    </td>
+                    <td>
+                        <input type="radio" id="indian" name="indian" value="INDIAN">
+                        <label for="indian">INDIAN</label><br>
+                        <input type="radio" id="non-indian" name="non-indian" value="non-INDIAN">
+                        <label for="non-indian">NON-INDIAN</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        AADHAR NUMBER:
+                    </td>
+                    <td>
+                        <input type="text" maxlength="10" placeholder="ENTER 10-DIGIT NO." required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        MOBILE NUMBER:
+                    </td>
+                    <td>
+                        <input type="text" maxlength="10" placeholder="ENTER NO." required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        RESIDENTIAL ADDRESS:
+                    </td>
+                    <td>
+                        <textarea placeholder="ENTER ADDRESS"></textarea><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        COMMUNICATION ADDRESS:
+                    </td>
+                    <td>
+                        <textarea placeholder="ENTER ADDRESS"></textarea><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        EMAIL:
+                    </td>
+                    <td>
+                        <input type="email" name="email" required><br><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        ID PROOF:
+                    </td>
+                    <td>
+                        <input type="file" name="id" required><br>
+                        <p>*choose file below 20 mb</p><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" required> I CERTIFY THAT ALL THE INFORMATION PROVIDED IS CORRECT.
+                    </td>
+                </tr>
+            </table>
+            <input type="reset">
+            <button>Submit</button><br>
+    </div>
+    </form>
+    <!--end form-->
+
+
+    <!--footer-->
+    <div class="footer">
+        <h6>Copyright © 2021 Tanisha. All rights reserved</h6>
+    </div>
+
+</body>
+
+</html>
